@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border: 2px solid #0055cc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.radio-buttons {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.image-box img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
